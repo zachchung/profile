@@ -1,6 +1,7 @@
 body {
   font-family: 'Roboto', sans-serif;
   text-align: center;
+  background-color: #FBFAFB;
 }
 
 h1 {
@@ -8,13 +9,14 @@ h1 {
 }
 
 h3 {
-  color: blue;
+  color: #48484A;
 }
 
 p {
   font-family: arial;
   font-weight: lighter;
   line-height: 25px;
+  color: #48484A;
 }
 
 a {
@@ -61,7 +63,7 @@ li {
 }
 
 .btn {
-  background-color: #6B72E1;
+  background-color: #A7A9AB;
   color: white;
   padding: 15px 20px;
   border-radius: 4px;
@@ -83,13 +85,17 @@ li {
 }
 @media (max-width: 540px) {
   .container {
-    width: 300px;
+    width: 400px;
   }
   h1 {
-    font-size:30px;}
+    font-size: 30px;
+  }
+  p {
+    font-size: 15px;
+  }
   li{
     display: block;
-    padding: 5px;
+    padding: 3px;
   }
 }
 
